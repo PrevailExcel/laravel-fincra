@@ -18,7 +18,7 @@ class FincraServiceProvider extends ServiceProvider
             ], 'fincra-config');
         }
 
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'fincra');
+        $this->loadViewsFrom(__DIR__ . '/../views', 'fincra');
         $this->registerRoutes();
     }
 
